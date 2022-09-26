@@ -1,0 +1,5 @@
+// In order for it to work please delete the Example part of the name and plug in your usernameand pasword for Mysql
+// the git ignore has a .env in it so it will not post your username or password
+DB_NAME=ecommerce_db
+DB_USER=UserName
+DB_PW=Password
