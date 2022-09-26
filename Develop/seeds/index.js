@@ -1,9 +1,9 @@
-const seedCategories = require('./category-seeds');
-const seedProducts = require('./product-seeds');
-const seedTags = require('./tag-seeds');
-const seedProductTags = require('./product-tag-seeds');
+const seedCategories = require('./catagory-seeds.js');
+const seedProducts = require('./product-seeds.js');
+const seedTags = require('./tag-seeds.js');
+const seedProductTags = require('./product-tag-seeds.js');
 
-const sequelize = require('../config/connection');
+const sequelize = require('../config/connection.js');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
